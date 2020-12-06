@@ -1,0 +1,23 @@
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NYT bestselling</title>
+    <style>
+		body{font-family:sans-serif;} tr.user td{border-top: 1px #888 dashed;} .count{text-align:right}
+	</style>
+</head>
+
+<body>
+	<h1>Current NYT Bestselling Books</h1>
+
+	<p>{{listname}} list:</p>
+    {% for item in bookrank %}
+	<p>{{ item }}</p>
+    {% endfor %}
+
+    <p><a href='/'>Display another list?</a></p>
+
+</body>
+</html>

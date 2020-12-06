@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{page_title}}</title>
+</head>
+<body>
+<h1>Current NYT Bestselling Books</h1>
+<div class = 'book'>
+    <form id = "bookform" action = "getlist" method = "get">
+        <label for="booklist">Select one booklist: </label><br />
+        <input type="checkbox" name="list_type" value = "hardcover-fiction" id="hardfiction"/>
+        <label for = 'hardfiction'>Hardcover Fiction</label><br />
+        <input type="checkbox" name="list_type" value = 'hardcover-nonfiction' id="hardnonfiction"/>
+        <label for = 'hardnonfiction'>Hardcover Nonfiction</label><br />
+        <input type="checkbox" name="list_type" value = 'e-book-fiction' id="ebookfiction"/>
+        <label for = 'ebookfiction'>E-book Fiction</label><br />
+        <input type="checkbox" name="list_type" value = 'e-book-nonfiction' id="ebooknonfiction"/>
+        <label for = 'ebooknonfiction'>E-book Nonfiction</label><br />
+        <input type="checkbox" name="list_type" value = 'paperback-nonfiction' id="papernonfiction"/>
+        <label for = 'papernonfiction'>Paperback Nonfiction</label><br />
+        <input type="submit" value = "SUBMIT" name = "submit" id="submit"/>
+    </form>
+</div>
+
+</body>
+</html>
