@@ -1,6 +1,6 @@
 import urllib.request, urllib.error, urllib.parse, json
 from flask import Flask, render_template, request
-from clientid import API_KEY
+from secret import API_KEY
 
 app = Flask(__name__)
 

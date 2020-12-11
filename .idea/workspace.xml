@@ -11,9 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0413300-56df-4dc4-91ba-2417adad2c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/nytbestselling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secret.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="HCDE310" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="HCDE310" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,12 +52,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607242722235</updated>
       <workItem from="1607242723292" duration="34000" />
-      <workItem from="1607242779728" duration="227000" />
+      <workItem from="1607242779728" duration="323000" />
+      <workItem from="1607647082555" duration="115000" />
     </task>
     <servers />
   </component>
@@ -96,16 +97,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="369" y="121" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607243005938">
+    <state x="369" y="121" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607647196197">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="369" y="121" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1607243005938" />
+    <state x="369" y="121" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1607647196197" />
     <state x="649" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607242981883">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="649" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875@0.25.1440.875" timestamp="1607242981883" />
+    <state width="1025" height="228" key="GridCell.Tab.0.bottom" timestamp="1607243102440">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1025" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1607243102440" />
+    <state width="1025" height="228" key="GridCell.Tab.0.center" timestamp="1607243102439">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1025" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1607243102439" />
+    <state width="1025" height="228" key="GridCell.Tab.0.left" timestamp="1607243102439">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1025" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1607243102439" />
+    <state width="1025" height="228" key="GridCell.Tab.0.right" timestamp="1607243102440">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1025" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1607243102440" />
+    <state x="511" y="199" key="Vcs.Push.Dialog.v2" timestamp="1607243046611">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="511" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1607243046611" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HCDE310$HCDE310.coverage" NAME="HCDE310 Coverage Results" MODIFIED="1607647179751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/HCDE310$main.coverage" NAME="main Coverage Results" MODIFIED="1607242924033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
